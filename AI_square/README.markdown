@@ -177,7 +177,8 @@ TABLE 생성
 ```
 
 ### sqlite3
-table 생성
+```python
+# table 생성
 > create table score (
 > name char(20),
 > kor int,
@@ -203,3 +204,4 @@ table 생성
 > DROP TABLE IF EXISTS Man;
 # Man table을 생성
 CREATE TABLE Man(name char(20), age int);
+```
